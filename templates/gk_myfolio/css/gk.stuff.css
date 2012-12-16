@@ -1,0 +1,694 @@
+/*
+#------------------------------------------------------------------------
+# Myfolio - August 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/*
+ * Tabs Module
+ */
+.gkTab {
+	position: relative;
+}
+
+.gkTabWrap {
+	margin: 0 auto;
+}
+
+ul.gkTabs {
+	height: 33px;
+	border-bottom: 3px solid #eee;
+}
+
+ul.gkTabs li {
+	border: none;
+	height: 33px;
+	line-height: 33px;
+	float: left;
+	margin-right: 12px;
+	padding: 0 3px;
+	color: #555;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+ul.gkTabs li span {
+	display: block;
+	line-height: 35px;
+	height: 33px;
+}
+
+ul.gkTabs li.active,ul.gkTabs li:hover {
+	border-bottom: 3px solid #333;
+	color: #222;
+	cursor: pointer;
+}
+
+.gkTabContainer0 {
+	clear: both;
+	margin: 0 -10px;
+}
+
+.gkTabContainer1 {
+	overflow: hidden;
+}
+
+.gkTabItem {
+	float: left;
+	overflow: hidden;
+	padding: 0;
+}
+
+.gkTabButtonNext,.gkTabButtonPrev {
+	display: none;
+}
+
+.gkTabContainer0,.gkTabContainer1,.gkTabContainer2 {
+	position: relative;
+}
+
+.gkTabItem {
+	position: absolute;
+	left: -999em;
+	top: 0;
+	width: 100%;
+}
+
+.gkTabItem.active {
+	position: static;
+	left: 0;
+}
+
+.gkTabItemSpace {
+	padding: 20px 16px 16px;
+}
+
+.tab1 ul.gkTabs li.active,.tab1 ul.gkTabs li:hover {
+	border-bottom: 3px solid #7397C3;
+	color: #5778a1;
+	cursor: pointer;
+}
+
+.tab2 ul.gkTabs li.active,.tab2 ul.gkTabs li:hover {
+	border-bottom: 3px solid #EE9218;
+	color: #E78A0B;
+	cursor: pointer;
+}
+
+/* Tabs GK5 */
+/* 
+ * VERTICAL mode 
+ */
+
+.gkTabsGK5 { 
+	position: relative; 
+}
+.gkTabsWrap {
+	margin: 0;
+}
+/* tabs */
+.gkTabsWrap.vertical ol { 
+	height: 33px;
+	border-bottom: 3px solid #eee; 
+}
+.gkTabsWrap.vertical ol li { 
+	border: none;
+	height: 33px;
+	line-height: 33px;
+	float: left;
+	margin-right: 12px;
+	padding: 0 3px;
+	color: #555;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.gkTabsWrap.vertical ol li span {
+	display: block;
+	line-height: 35px;
+	height: 33px;
+}
+
+.gkTabsWrap.vertical ol li:hover,
+.gkTabsWrap.vertical ol li.active  {
+	border-bottom: 3px solid #333;
+	color: #222;
+	cursor: pointer;
+}
+
+/* containers */
+.gkTabsContainer { 
+	clear: both; 
+	overflow: hidden;
+	position: relative;
+	margin: 0 -10px;
+}
+.gkTabsItem { 
+	left: -9999px;
+	padding: 0 16px 16px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+.gkTabsItem.active {
+	left: 0;
+	position: relative;
+	z-index: 2;
+}
+/* buttons prev/next */
+.gkTabsButtonNext,
+.gkTabsButtonPrev { 
+	display:none; 
+}
+
+/* suffixes */
+.tab1 .gkTabsWrap.vertical ol li.active,.tab1 .gkTabsWrap.vertical ol li:hover {
+	border-bottom: 3px solid #7397C3;
+	color: #5778a1;
+	cursor: pointer;
+}
+
+.tab2 .gkTabsWrap.vertical ol li.active,.tab2 .gkTabsWrap.vertical ol li:hover {
+	border-bottom: 3px solid #EE9218;
+	color: #E78A0B;
+	cursor: pointer;
+}
+
+/*
+ * News Show Pro GK4
+ */
+.nsp {
+	position: relative;
+}
+
+.nsp > div > h3 {
+	margin-bottom: 8px !important;
+}
+
+.nspMain {
+	overflow: hidden;
+}
+
+/* interface */
+.nspBotInterface,.nspTopInterface {
+	overflow: hidden;
+	width: auto;
+	margin: 0;
+}
+
+.nspBotInterface {
+	margin: 0;
+	padding: 0;
+}
+
+.nspTopInterface div {
+	position: absolute;
+	right: 4px;
+	top: 18px;
+	padding: 0 3px;
+}
+
+.nspBotInterface div {
+	float: right;
+}
+
+/* pagination */
+.nspBotInterface .nspPagination li,.nspTopInterface .nspPagination li,.nspBotInterface .nspPagination li.active,.nspTopInterface .nspPagination li.active {
+	display: block;
+	float: left;
+	border: none !important;
+	width: 6px;
+	height: 12px;
+	margin: 0 0 0 5px;
+	padding: 0 !important;
+	background: url('../images/nsp_interface.png') no-repeat 0 0 !important;
+	text-indent: -999em !important;
+	cursor: pointer;
+}
+
+.nspBotInterface .nspPagination li:hover,.nspBotInterface .nspPagination li.active,.nspTopInterface .nspPagination li:hover,.nspTopInterface .nspPagination li.active {
+	background-position: -8px 0 !important;
+	cursor: pointer;
+}
+
+.nspTopInterface .nspPagination,.nspBotInterface .nspPagination {
+	border: none !important;
+	float: left;
+	width: auto;
+	padding: 1px 8px 0 8px !important;
+	list-style-type: none;
+	margin: 0;
+}
+
+.nspBotInterface .nspCounter,.nspTopInterface .nspCounter {
+	padding: 4px 8px !important;
+	font-size: 10px;
+	font-weight: normal !important;
+	height: 10px;
+	line-height: 10px;
+	background: transparent;
+	color: #ccc !important;
+	cursor: pointer;
+	float: left;
+	margin: 0 0 0 8px !important;
+}
+
+.nspBotInterface .nspCounter span,.nspTopInterface .nspCounter span {
+	color: #85837F !important;
+}
+
+/* buttons:  prev & next */
+.nspBotInterface,.nspTopInterface {
+	margin: 0 !important;
+}
+
+.nspBotInterface div,.nspTopInterface div {
+	top: 14px !important;
+}
+
+.nspTopInterface div .nspBotInterface div,.nspTopInterface div {
+	top: 14px !important;
+}
+
+.nspBotInterface .nspPrev,.nspTopInterface .nspPrev,.nspBotInterface .nspNext,.nspTopInterface .nspNext {
+	display: block;
+	float: left;
+	border: none !important;
+	height: 11px;
+	width: 12px;
+	margin: 0 0 0 2px;
+	background: transparent url('../images/nsp_interface.png') no-repeat -16px 0;
+	cursor: pointer;
+	text-indent: -999em;
+	padding: 0 !important;
+}
+
+.nspBotInterface .nspPrev:hover,.nspTopInterface .nspPrev:hover {
+	background-position: -42px 0;
+}
+
+.nspBotInterface .nspNext,.nspTopInterface .nspNext {
+	background-position: -29px 0;
+}
+
+.nspBotInterface .nspNext:hover,.nspTopInterface .nspNext:hover {
+	background-position: -55px 0;
+}
+
+/* interface image and position in the different suffixes */
+.dark .nspBotInterface .nspPagination li,.dark .nspTopInterface .nspPagination li,.dark .nspBotInterface .nspPagination li.active,.dark .nspTopInterface .nspPagination li.active,.dark .nspBotInterface .nspPrev,.dark .nspTopInterface .nspPrev,.dark .nspBotInterface .nspNext,.dark .nspTopInterface .nspNext {
+	background-image: url('../images/nsp_interface_dark.png');
+}
+
+.border .nspTopInterface div,.dark .nspTopInterface div,.color3 .nspTopInterface div,.color4 .nspTopInterface div,.color5 .nspTopInterface div {
+	right: 24px;
+	top: 28px !important;
+}
+
+.box.dark .nspLinks ul li {
+	border-top-color: #555 !important;
+}
+
+/* article layout */
+.nspArts {
+	overflow: hidden;
+}
+
+.nspArt > div {
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+.nspArt h4.nspHeader,.nspArt h4.nspHeader a {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.nspArt h4.nspHeader {
+	line-height: 16px;
+	margin-bottom: 6px;
+	margin-top: 5px;
+}
+
+.nspArt img {
+	padding: 0;
+}
+
+.nspArt p.nspText {
+	margin-top: 0 !important;
+	font-size: 12px;
+	line-height: 1.7;
+}
+
+.nspArt p.nspInfo {
+	font-size: 85%;
+	margin: 6px 0;
+}
+
+.nspArt .tleft {
+	text-align: left;
+}
+
+.nspArt .tright {
+	text-align: right;
+}
+
+.nspArt .tcenter {
+	text-align: center;
+}
+
+.nspArt .tjustify {
+	text-align: justify;
+}
+
+.nspArt .fleft {
+	float: left;
+}
+
+.nspArt .fright {
+	float: right;
+}
+
+.nspArt .fnone {
+	clear: both;
+	width: 100%;
+	float: none;
+}
+
+.nspArt {
+	float: left;
+}
+
+.nspReadon_class.left,.nspReadon_class.right,.nspReadon_class.center {
+	clear: both;
+}
+
+.nspReadon_class.left {
+	float: left;
+}
+
+.nspReadon_class.right {
+	float: right;
+}
+
+.nspReadon_class.center {
+	display: inline;
+	float: none;
+}
+
+.box .nspLinks ul li {
+	border-top: 1px solid #e0e0e0 !important;
+	list-style-type: none !important;
+	background: none !important;
+	padding-left: 0 !important;
+	margin: 0 !important;
+}
+
+.nspLinks ul li:first-child {
+	border-top: none !important;
+	padding-top: 0px;
+}
+
+.nspLinks ul li h4 {
+	font-size: 12px;
+	line-height: 1.2 !important;
+	font-weight: bold;
+	font-family: Arial, Verdana, sans-serif;
+	margin-bottom: 4px;
+}
+
+.nspLinks ul li p {
+	margin: 0;
+	font-size: 12px;
+	line-height: 130%;
+}
+
+.nspLinks ul li {
+	margin: 0;
+	padding: 11px 0 12px;
+	height: auto;
+	border-bottom: none;
+}
+
+.nspLinks ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none !important;
+	clear: none !important;
+}
+
+.nspArts.left {
+	float: right;
+}
+
+.nspLinksWrap.left {
+	float: left;
+}
+
+.nspArts.right {
+	float: left;
+}
+
+.nspLinksWrap.right {
+	float: right;
+}
+
+.nspMain .unvisible {
+	height: 1px;
+	left: -10000px;
+	overflow: hidden;
+	position: absolute;
+	top: auto;
+	width: 1px;
+}
+
+.nspAvatar {
+	margin-bottom: -5px;
+}
+
+.nspArt .nspReadon {
+	margin-top: 14px;
+}
+
+.nspText .readon {
+	display: inline !important;
+	float: none !important;
+}
+
+/* NSP gallery suffix */
+.gallery .nspArt > div {
+	position: relative;
+}
+
+.gallery .nspArt > div > .nspContainer {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0.0;
+}
+
+.gallery .nspArt > div > .nspContainer > div {
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: #000 url('../images/nsp_bg.png') no-repeat -400% -400%;
+	position: relative;
+}
+
+.gallery .nspArt > div > .nspHeader,.gallery .nspArt > div > .nspInfo,.gallery .nspArt > div > .nspText,.gallery .nspArt > div > .readon {
+	position: absolute;
+	left: -999px;
+}
+
+.gallery .nspArt > div > .nspContainer {
+	-webkit-transition: opacity 0.5s ease-in;
+	-moz-transition: opacity 0.5s ease-in;
+	-o-transition: opacity 0.5s ease-in;
+	-ms-transition: opacity 0.5s ease-in;
+	transition: opacity 0.5s ease-in;
+}
+
+.gallery .nspArt > div > .nspContainer > div {
+	-webkit-transition: background-position 0.35s ease-in-out;
+	-moz-transition: background-position 0.35s ease-in-out;
+	-o-transition: background-position 0.35s ease-in-out;
+	-ms-transition: background-position 0.35s ease-in-out;
+	transition: background-position 0.35s ease-in-out;
+	cursor: pointer;
+}
+
+.gallery .nspArtPage .nspArt:hover > div > .nspContainer {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1.0;
+}
+
+.gallery .nspArt:hover > div > .nspContainer > div {
+	background-position: 100% 100%;
+}
+
+.gallery .nspArt .nspContainer {
+	text-align: center;
+}
+
+.gallery .nspArt .nspContainer .nspHeader {
+	display: inline-block;
+	cursor: pointer;
+	margin: 50% auto 0 auto;
+	padding: 10px 13px;
+	line-height: 10px !important;
+	text-transform: uppercase;
+	font-weight: bold !important;
+	text-align: center;
+	width: auto;
+	background: #272727;
+	position: relative;
+	top: -15px;
+	font-size: 10px !important;
+	color: #fff !important;
+	font-family: Arial, Verdana, sans-serif !important;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.gallery .nspArt .nspContainer .nspHeader a {
+	line-height: 10px !important;
+	font-size: 10px !important;
+	color: #fff !important;
+	font-family: Arial, Verdana, sans-serif !important;
+	font-weight: bold !important;
+}
+
+/* colors and patterns switcher */
+#gkPatterns a,#gkColors a {
+	background: url('../images/switcher_pattern.png') no-repeat 0 0;
+	display: block;
+	float: left;
+	height: 10px;
+	width: 10px;
+	margin-left: 3px;
+	margin-top: 12px;
+	text-indent: -9999em;
+}
+
+#gkPattern2 {
+	background-position: -10px 0 !important;
+}
+
+#gkPattern3 {
+	background-position: -20px 0 !important;
+}
+
+#gkPattern4 {
+	background-position: -30px 0 !important;
+}
+
+#gkPattern5 {
+	background-position: -40px 0 !important;
+}
+
+#gkPattern6 {
+	background-position: -50px 0 !important;
+}
+
+#gkPattern7 {
+	background-position: -60px 0 !important;
+}
+
+#gkPattern8 {
+	background-position: -70px 0 !important;
+}
+
+#gkColors {
+	float: right;
+}
+
+#gkColors a {
+	background: url('../images/switcher_color.png') no-repeat 0 0;
+	margin-top: 3px;
+}
+
+#gkColor2 {
+	background-position: -10px 0 !important;
+}
+
+#gkColor3 {
+	background-position: -20px 0 !important;
+}
+
+/* Google Maps plugin fix */
+.map img { 
+    background-color:transparent!important; 
+}
+
+/* Login with Facebook button */
+span#fb-auth small {
+    width: 15px; 
+	height: 18px;  
+	background: transparent url('../images/fbauth.png') no-repeat 0 1px; 
+	text-indent: -999em; 
+	display: block; 
+	float: left; 
+	-moz-box-shadow:inset 0px 1px 0px 0px #aab5cd; 
+	-webkit-box-shadow:inset 0px 0px 1px 0px #556a9a; 
+	box-shadow:1px 0px #556a9a; 
+	border-right: 1px solid #a0aecd; 
+	margin: 2px 7px 0 0  
+}
+
+span#fb-auth {
+	-webkit-box-shadow: inset 0px 1px 0px 0px #aab5cd;
+	-moz-box-shadow: inset 0px 1px 0px 0px #aab5cd;
+	box-shadow: inset 0px 1px 0px 0px #aab5cd;
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #798db9), color-stop(1, #556b9b) );
+
+	background: -webkit-linear-gradient( center top, #798db9 5%, #556b9b 100% );
+	background: -moz-linear-gradient( center top, #798db9 5%, #556b9b 100% );
+	background: -o-linear-gradient( center top, #798db9 5%, #556b9b 100% );
+	background: -ms-linear-gradient( center top, #798db9 5%, #556b9b 100% );
+	background: linear-gradient( center top, #798db9 5%, #556b9b 100% );
+	background-color: #798db9;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #4d576b;
+	display: inline-block;
+	color: #fff;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 3px 10px 8px 6px;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #445375;
+	cursor: pointer;
+	height: 14px;
+	margin-top: 1px;
+}
+
+span#fb-auth:hover {
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #556b9b), color-stop(1, #798db9) );
+
+	background: -webkit-linear-gradient( center top, #556b9b 5%, #798db9 100% );
+	background: -moz-linear-gradient( center top, #556b9b 5%, #798db9 100% );
+	background: -o-linear-gradient( center top, #556b9b 5%, #798db9 100% );
+	background: -ms-linear-gradient( center top, #556b9b 5%, #798db9 100% );
+	background: linear-gradient( center top, #556b9b 5%, #798db9 100% );
+	background-color: #556b9b;
+}

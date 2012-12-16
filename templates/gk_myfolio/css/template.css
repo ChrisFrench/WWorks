@@ -1,0 +1,550 @@
+/*
+#------------------------------------------------------------------------
+# Myfolio - August 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+
+/* Basic elements */
+body {
+	line-height: 1.8;
+	min-height: 100%;
+	color: #777;
+	padding-top: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover,a:active,a:focus {
+	color: #5778a1;
+}
+
+h1,h2,h3,h4,h5 {
+	font-weight: normal;
+	color: #333;
+}
+
+h1 {
+	font-size: 380%;
+}
+
+h2 {
+	font-size: 350%;
+}
+
+h3 {
+	font-size: 135%;
+}
+
+h4 {
+	font-size: 110%;
+}
+
+h5 {
+	font-size: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	line-height: 2.6;
+}
+
+p {
+	margin: 0.5em 0;
+}
+
+/* Containers */
+#gkPage {
+	background: #f9f9f9;
+}
+
+#gkPageWrap {
+	padding: 40px;
+}
+
+#gkPageTop {
+	padding-bottom: 20px;
+}
+
+#gkContent > div {
+	background: #fff;
+}
+
+#gkContentTop,#gkContentBottom {
+	padding: 30px;
+	margin-bottom: 0 !important;
+}
+
+/* Logo  */
+h1#gkLogo {
+	float: left;
+}
+
+h1#gkLogo a img {
+	display: block;
+	height: 45px;
+	margin: 0;
+	max-width: 400px;
+	top: 0;
+	left: 0;
+}
+
+h1#gkLogo a.cssLogo {
+	background: url('../images/logo.png') no-repeat 0 0;
+	display: block;
+	height: 45px;
+	margin: 0;
+	text-indent: -999em;
+	width: 302px;
+	top: 0;
+	left: 0;
+	z-index: 1001;
+}
+
+h1.gkLogo.text {
+	width: auto;
+	float: left;
+	margin: 0;
+}
+
+h1.gkLogo.text a {
+	display: block;
+	font-size: 24px;
+	line-height: 45px;
+	font-weight: normal;
+	text-indent: 0;
+	float: left;
+}
+
+h1.gkLogo.text a {
+	padding: 0;
+	width: auto !important;
+}
+
+h1.gkLogo.text a > span {
+	background: #111;
+	color: #fff;
+	padding: 5px 7px;
+	display: block;
+	font-size: 32px;
+	line-height: 32px;
+	float: left;
+}
+
+h1.gkLogo.text .gkLogoSlogan {
+	font-size: 20px !important;
+	line-height: 42px;
+	color: #111 !important;
+	margin: 0 0 0 8px;
+	height: 45px;
+	display: block;
+	float: left;
+}
+
+/* Suffix header */
+#gkHeader .header {
+	color: #333;
+	font-size: 48px;
+	border: 1px solid #eee;
+	border-left: none;
+	border-right: none;
+	padding: 0;
+	margin: 0 0 70px 0;
+	word-spacing: 10px;
+}
+
+#gkHeader .header strong {
+	color: #E78A0B;
+	font-weight: normal;
+}
+
+/* standard breadcrumb */
+#gkBreadcrumb {
+	min-height: 26px;
+	border-bottom: 1px solid #eee;
+	cursor: pointer;
+	margin: -30px 0 20px !important;
+	padding: 10px 0;
+}
+
+#gkBreadcrumb > div {
+	padding: 0;
+}
+
+#gkBreadcrumb .breadcrumbs {
+	width: auto;
+	float: left;
+	font-size: 11px;
+	color: #333;
+}
+
+#gkBreadcrumb .breadcrumbs li.separator {
+	display: block;
+	float: left;
+	width: 6px;
+	margin: 0 10px;
+	background: url('../images/bullet.png') no-repeat 50% 50%;
+	text-indent: -99999em;
+}
+
+#gkBreadcrumb .breadcrumbs li > span {
+	margin-right: 8px;
+}
+
+#gkBreadcrumb .breadcrumbs > ul {
+	margin-left: 0;
+	height: 35px;
+	line-height: 35px;
+	padding: 0;
+}
+
+#gkBreadcrumb .breadcrumbs > ul > li {
+	float: left;
+	width: auto;
+	clear: none;
+	height: 35px;
+	line-height: 35px;
+}
+
+#gkBreadcrumb .breadcrumbs > ul > li a {
+	color: #999;
+}
+
+#gkBreadcrumb .breadcrumbs > ul > li a:hover {
+	color: #333;
+}
+
+/* tools */
+#gkTools {
+	float: right;
+}
+
+#gkTools a {
+	display: block;
+	float: left;
+	width: 11px;
+	height: 9px;
+	margin: 12px 0 0 3px;
+	text-indent: -99999em;
+	background: transparent url('../images/font_size.png') no-repeat -44px 0;
+}
+
+a#gkToolsReset {
+	background-position: -24px 0;
+	margin-left: 6px;
+}
+
+a#gkToolsDec {
+	background-position: 0 0;
+}
+
+/* footer */
+#gkFooterWrap {
+	margin: 25px auto;
+	font-size: 11px;
+	color: #898888;
+	text-shadow: 0 1px #fff;
+	overflow: hidden;
+}
+
+#gkFooterWrap a {
+	color: #898888;
+}
+
+#gkFooterWrap a:hover {
+	color: #5778a1;
+}
+
+#gkCopyrights span,span.mobileSwitcher {
+	float: right;
+	line-height: 14px;
+}
+
+span.mobileSwitcher a {
+	margin: 0 10px;
+	font-weight: 600;
+}
+
+#gkFooterNav {
+	float: left;
+}
+
+#gkFooterNav li {
+	display: inline;
+	margin-left: 16px;
+	line-height: 11px;
+}
+
+#gkFooterNav li:first-child {
+	margin: 0;
+	padding: 0;
+}
+
+#gkStyleArea {
+	clear: both;
+	float: right;
+}
+
+#gkFrameworkLogo {
+	display: block;
+	width: 140px;
+	height: 42px;
+	background: url('../images/framework-logo.png') no-repeat 0 0;
+	text-indent: -9999em;
+	margin: 96px auto 0;
+	padding-bottom: 40px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+	clear: both;
+}
+
+/* Suffixes */
+.box,.box_menu,.box_text {
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.box:first-child,.box_menu:first-child,.box_text:first-child {
+	margin-top: 0 !important;
+}
+
+.box > div,.box_menu > div,.box_text > div {
+	overflow: hidden;
+}
+
+.box_content {
+	padding: 0;
+	overflow: hidden;
+	color: #a4a4a4;
+	font-size: 13px;
+	line-height: 1.2;
+}
+
+.box li,.box_text li {
+	line-height: 32px;
+	font-size: 12px;
+	border-top: 1px solid #eee;
+	font-weight: normal;
+}
+
+.box li:first-child,.box_menu li:first-child,.box_text li:first-child {
+	border-top: none;
+}
+
+/*---default */
+.box > div > h3.header,.box_menu > div > h3.header,.box_text > div > h3.header {
+	border-left: 36px solid transparent;
+	height: 3px;
+	background: transparent;
+	position: relative;
+	margin-bottom: 2px;
+	margin-top: 35px;
+	font-weight: normal;
+}
+
+.box.color1 > div > h3.header,.box_menu.color1 > div > h3.header,.box_text.color1 > div > h3.header,.box.color2 > div > h3.header,.box_menu.color2 > div > h3.header,.box_text.color2 > div > h3.header {
+	border-left: 36px solid #9a9a9a;
+	height: 3px;
+	background: #eee;
+	position: relative;
+	margin-bottom: 2px;
+	margin-top: 35px;
+	font-weight: normal;
+}
+
+.box > div > h3.header > span,.box_menu > div > h3.header > span,.box_text > div > h3.header > span {
+	display: block;
+	top: -35px;
+	position: relative;
+	margin: 0 0 0 -36px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #333;
+}
+
+/* suffix color1 */
+.box.color1 > div > h3.header,.box_menu.color1 > div > h3.header,.box_text.color1 > div > h3.header,.box.dark.color1 > div > h3.header {
+	border-left: 36px solid #7397c3;
+}
+
+/* suffix color2 */
+.box.color2 > div > h3.header,.box_menu.color2 > div > h3.header,.box_text.color2 > div > h3.header,.box.dark.color2 > div > h3.header {
+	border-left: 36px solid #E78A0B;
+}
+
+.box.color2 a:hover,.box_menu.color2 a:hover,.box_text.color2 a:hover {
+	color: #E78A0B !important;
+}
+
+/* suffixes color3-5 */
+.box.color3 > div > h3.header,.box_menu.color3 > div > h3.header,.box_text.color3 > div > h3.header,.box.color4 > div > h3.header,.box_menu.color4 > div > h3.header,.box_text.color4 > div > h3.header,.box.color5 > div > h3.header,.box_menu.color5 > div > h3.header,.box_text.color5 > div > h3.header {
+	background: transparent;
+	border-left-color: transparent;
+	margin-bottom: 0 !important;
+}
+
+.box.color3 > div,.box_menu.color3 > div,.box_text.color3 > div,.box.color4 > div,.box_menu.color4 > div,.box_text.color4 > div,.box.color5 > div,.box_menu.color5 > div,.box_text.color5 > div {
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 20px;
+}
+
+/* suffix color4 */
+.box.color4 > div > h3.header > span,.box_menu.color4 > div > h3.header > span,.box_text.color4 > div > h3.header > span {
+	color: #5778a1;
+}
+
+.box.color4 > div,.box_menu.color4 > div,.box_text.color4 > div {
+	background: #f8fbff;
+	border-color: #d6e2f2;
+}
+
+.box.color4 li,.box_menu.color4 li,.box_text.color4 li {
+	border-top-color: #d6e2f2;
+}
+
+.box.color4 a,.box_menu.color4 a,.box_text.color4 a {
+	color: #5778a1;
+}
+
+.box.color4 a:hover,.box.color4 a:active,.box.color4 a:focus,.box_menu.color4 a:hover,.box_menu.color4 a:active,.box_menu.color4 a:focus,.box_text.color4 a:hover,.box_text.color4 a:active,.box_text.color4 a:focus {
+	color: #333;
+}
+
+/* suffix color5 */
+.box.color5 > div > h3.header > span,.box_menu.color5 > div > h3.header > span,.box_text.color5 > div > h3.header > span {
+	color: #E78A0B;
+}
+
+.box.color5 > div,.box_menu.color5 > div,.box_text.color5 > div {
+	background: #fff9ea;
+	border-color: #f3deac;
+}
+
+.box.color5 li,.box_menu.color5 li,.box_text.color5 li {
+	border-top-color: #f3deac;
+}
+
+.box.color5 a,.box_menu.color5 a,.box_text.color5 a {
+	color: #E78A0B;
+}
+
+.box.color5 a:hover,.box.color5 a:active,.box.color5 a:focus,.box_menu.color5 a:hover,.box_menu.color5 a:active,.box_menu.color5 a:focus,.box_text.color5 a:hover,.box_text.color5 a:active,.box_text.color5 a:focus {
+	color: #333;
+}
+
+/* suffix border */
+.box.border > div,.box_menu.border > div,.box_text.border > div {
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 20px;
+}
+
+/* suffix dark */
+.box.dark > div > h3.header {
+	background: #393939;
+	border-left-color: #fff;
+}
+
+.box.dark > div > h3.header > span {
+	color: #eee;
+}
+
+.box.dark > div {
+	background: #222;
+	padding: 20px;
+}
+
+.box.dark li {
+	border-top-color: #393939;
+}
+
+.box.dark a {
+	color: #fff;
+}
+
+.box.dark a:hover,.box.dark a:active,.box.dark a:focus {
+	color: #5778a1;
+}
+
+.box.dark input[type="password"],.box.dark input[type="text"],.box.dark input[type="email"],.box.dark input[type="www"],.box.dark input[type="tel"],.box.dark input[type="url"],.box.dark input[type="search"],.box.dark select,.box.dark .inputbox {
+	border-color: #222;
+}
+
+.box.dark h1,.box.dark h2,.box.dark h3,.box.dark h4,.box.dark h5 {
+	color: #bbb;
+}
+
+/* spacing fix */
+.box.dark > div > h3.header,.box_menu.dark > div > h3.header,.box_text.dark > div > h3.header,.box.color1 > div > h3.header,.box_menu.color1 > div > h3.header,.box_text.color1 > div > h3.header,.box.color2 > div > h3.header,.box_menu.color2 > div > h3.header,.box_text.color2 > div > h3.header {
+	margin-bottom: 16px;
+}
+
+.box.dark > div > h3.header > span,.box_menu.dark > div > h3.header > span,.box_text.dark > div > h3.header > span,.box.color1 > div > h3.header > span,.box_menu.color1 > div > h3.header > span,.box_text.color1 > div > h3.header > span,.box.color2 > div > h3.header > span,.box_menu.color2 > div > h3.header > span,.box_text.color2 > div. > h3.header > span {
+	top: -31px;
+}
+
+/* suffix gallery (for NSP) */
+.box.gallery {
+	margin: 0 0 -12px -12px;
+}
+
+.box.gallery > div > h3.header {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+/* suffix clear */
+.box.clear,.box.clear > div,.box.clear > div > .box_content {
+	padding: 0 !important;
+	background: none !important;
+	border: none !important;
+	margin: 0 !important;
+}
+
+.box.clear > div > h3 {
+	display: none;
+}
+
+/* bottom modules */
+#gkBottom1 {
+	background: #f9f9f9;
+	background: rgba(249,249,249,0.96);
+}
+
+#gkBottom1 > div {
+	padding: 25px 45px;
+}
+
+#gkBottom2 {
+	font-color: #999;
+	border-bottom: 1px solid #d5d5d5;
+	padding-bottom: 20px;
+}
+
+#gkBottom2 a {
+	color: #666;
+}
+
+#gkBottom2 a:hover,#gkBottom2 a:active,#gkBottom2 a:focus {
+	color: #5778a1;
+}
+
+#gkBottom2 {
+	text-shadow: 0 1px #fff;
+}
+
+#gkBottom2 .dark {
+	text-shadow: none;
+}

@@ -1,0 +1,154 @@
+/*
+#------------------------------------------------------------------------
+# Myfolio -August 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License:  Copyrighted Commercial Software
+# Website:  http://www.gavick.com
+# Support:  support@gavick.com
+ */
+#gkMainMenu {
+	float: right;
+}
+
+#gkMainMenu > div > ul {
+	height: 36px;
+}
+
+#gkMainMenu > div > ul > li:first-child {
+	margin-left: 0;
+}
+
+#gkMainMenu > div > ul > li {
+	height: 36px;
+	margin-left: 24px;
+}
+
+#gkMainMenu > div > ul > li:hover > a,#gkMainMenu > div > ul > li:active > a,#gkMainMenu > div > ul > li:focus > a {
+	color: #000;
+}
+
+#gkMainMenu > div > ul > li > a {
+	padding: 0;
+	display: block;
+	height: 36px;
+	line-height: 40px;
+	font-size: 13px;
+	letter-spacing: -0.5px;
+	text-transform: uppercase;
+	color: #555;
+}
+
+#gkMainMenu > div > ul > li.active a {
+	color: #5778a1;
+}
+
+#gkMainMenu > div > ul div.childcontent {
+	padding-top: 12px;
+	background: transparent;
+}
+
+#gkMainMenu > div > ul span.childcontent-bullet {
+	display: none;
+}
+
+#gkMainMenu > div > ul > li > div.childcontent > div.childcontent-inner-wrap > span.childcontent-bullet {
+	display: block !important;
+	width: 14px;
+	height: 7px;
+	position: relative;
+	background: transparent url('../images/submenu_bg.png') no-repeat left top;
+	position: absolute;
+	top: -7px;
+	left: 10px;
+}
+
+#gkMainMenu > div > ul div.childcontent-inner-wrap {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background: #eee;
+	border: 1px solid #dfdfdf;
+	padding: 10px;
+	position: relative;
+}
+
+#gkMainMenu > div > ul div.childcontent-inner {
+	overflow: hidden;
+	background: #fff;
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding-bottom: 14px;
+}
+
+div.gk-menu > ul.level0 > li > .childcontent .gkcol {
+	padding-bottom: 0;
+}
+
+#gkMainMenu > div > ul div.childcontent a,#gkMainMenu > div > ul div.childcontent span {
+	font-size: 11px;
+	color: #333;
+}
+
+#gkMainMenu > div > ul div.childcontent li {
+	padding: 0;
+	min-height: 35px;
+	line-height: 35px;
+	border-bottom: 1px solid #eee;
+	margin: 0 15px;
+}
+
+#gkMainMenu > div > ul div.childcontent li.group {
+	padding: 0;
+	margin: 0;
+	height: auto;
+	border: none !important;
+}
+
+#gkMainMenu > div > ul div.childcontent li > a,#gkMainMenu > div > ul div.childcontent li > span {
+	display: block;
+	min-height: 24px;
+	color: #333;
+}
+
+#gkMainMenu > div > ul div.childcontent li.active > a,#gkMainMenu > div > ul div.childcontent li.active > span,#gkMainMenu > div > ul div.childcontent li:hover > a,#gkMainMenu > div > ul div.childcontent li:hover > span,#gkMainMenu > div > ul div.childcontent li > a:hover,#gkMainMenu > div > ul div.childcontent li > span:hover {
+	color: #5778a1 !important;
+}
+
+#gkMainMenu > div > ul div.childcontent li.active > a > span,#gkMainMenu > div > ul div.childcontent li.active > span > span,#gkMainMenu > div > ul div.childcontent li:hover > a > span,#gkMainMenu > div > ul div.childcontent li:hover > span > span,#gkMainMenu > div > ul div.childcontent li > a:hover > span,#gkMainMenu > div > ul div.childcontent li > span:hover > span {
+	color: #5778a1 !important;
+}
+
+#gkMainMenu > div > ul div.childcontent .group-title {
+	padding: 8px;
+	margin: 15px 15px 5px 15px;
+	border: 1px solid #eee;
+	background: #fbfbfb;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#gkMainMenu > div > ul div.childcontent .group-title .menu-title {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 16px;
+	display: block;
+	color: #222;
+}
+
+#gkMainMenu > div > ul div.childcontent .group-title .menu-desc {
+	font-size: 12px;
+	line-height: 12px;
+	display: block;
+	color: #777;
+}
+
+#gkMainMenu .module p {
+	font-size: 12px;
+	line-height: 18px;
+}

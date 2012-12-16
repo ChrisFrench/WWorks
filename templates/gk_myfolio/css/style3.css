@@ -1,0 +1,152 @@
+/*
+#------------------------------------------------------------------------
+# Myfolio - August 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/* template.css */
+a:hover,a:active,a:focus {
+	color: #967199;
+}
+
+#gkHeader .header strong {
+	color: #99BF00;
+}
+
+#gkFooterWrap a:hover {
+	color: #967199;
+}
+
+.box.color1 > div > h3.header,.box_menu.color1 > div > h3.header,.box_text.color1 > div > h3.header,.box.dark.color1 > div > h3.header {
+	border-left-color: #967199;
+}
+
+.box.color2 > div > h3.header,.box_menu.color2 > div > h3.header,.box_text.color2 > div > h3.header,.box.dark.color2 > div > h3.header {
+	border-left-color: #99BF00;
+}
+
+.box.color2 a:hover,.box_menu.color2 a:hover,.box_text.color2 a:hover {
+	color: #99BF00 !important;
+}
+
+.box.color4 > div > h3.header > span,.box_menu.color4 > div > h3.header > span,.box_text.color4 > div > h3.header > span {
+	color: #967199;
+}
+
+.box.color4 > div,.box_menu.color4 > div,.box_text.color4 > div {
+	background: #fdf9fd;
+	border-color: #e0cbe2;
+}
+
+.box.color4 li,.box_menu.color4 li,.box_text.color4 li {
+	border-top-color: #e0cbe2;
+}
+
+.box.color4 a,.box_menu.color4 a,.box_text.color4 a {
+	color: #967199;
+}
+
+.box.color5 > div > h3.header > span,.box_menu.color5 > div > h3.header > span,.box_text.color5 > div > h3.header > span {
+	color: #99BF00;
+}
+
+.box.color5 > div,.box_menu.color5 > div,.box_text.color5 > div {
+	background: #FEFFFB;
+	border-color: #DCE6A8;
+}
+
+.box.color5 li,.box_menu.color5 li,.box_text.color5 li {
+	border-top-color: #DCE6A8;
+}
+
+.box.color5 a,.box_menu.color5 a,.box_text.color5 a {
+	color: #99BF00;
+}
+
+.box.dark a:hover,.box.dark a:active,.box.dark a:focus {
+	color: #967199;
+}
+
+#gkBottom2 a:hover,#gkBottom2 a:active,#gkBottom2 a:focus {
+	color: #967199;
+}
+
+/* menu.css */
+#gkMainMenu > div > ul > li.active a {
+	color: #967199;
+}
+
+#gkMainMenu > div > ul div.childcontent li.active > a,#gkMainMenu > div > ul div.childcontent li.active > span,#gkMainMenu > div > ul div.childcontent li:hover > a,#gkMainMenu > div > ul div.childcontent li:hover > span,#gkMainMenu > div > ul div.childcontent li > a:hover,#gkMainMenu > div > ul div.childcontent li > span:hover {
+	color: #967199 !important;
+}
+
+#gkMainMenu > div > ul div.childcontent li.active > a > span,#gkMainMenu > div > ul div.childcontent li.active > span > span,#gkMainMenu > div > ul div.childcontent li:hover > a > span,#gkMainMenu > div > ul div.childcontent li:hover > span > span,#gkMainMenu > div > ul div.childcontent li > a:hover > span,#gkMainMenu > div > ul div.childcontent li > span:hover > span {
+	color: #967199 !important;
+}
+
+/* joomla.css */
+.button:hover,.button:focus,button:hover,button:focus,input[type="submit"]:hover,input[type="submit"]:focus,input[type="button"]:hover,input[type="button"]:focus,a:hover.k2ReadMore,.pagenav-next a:hover,.pagenav-prev a:hover,.pagenav-next a:active,.pagenav-prev a:active,.pagenav-next a:focus,.pagenav-prev a:focus,.k2ReadMore:hover,.k2ReadMore:focus,.k2ReadMore:active {
+	background: #967199;
+	color: #fff !important;
+}
+
+.box_menu ul.menu li {
+	background-image: url('../images/style3/bullet_color.png');
+}
+
+.searchintro {
+	color: #ee9218;
+}
+
+div#article-index ul li {
+	background-image: url('../images/style3/bullet_color.png');
+}
+
+/* gk_stuff.css */
+.tab1 ul.gkTabs li.active,.tab1 ul.gkTabs li:hover,.tab1 .gkTabsWrap.vertical ol li.active,.tab1 .gkTabsWrap.vertical ol li:hover {
+	border-bottom-color: #967199;
+	color: #967199;
+}
+
+.tab2 ul.gkTabs li.active,.tab2 ul.gkTabs li:hover,.tab2 .gkTabsWrap.vertical ol li.active,.tab2 .gkTabsWrap.vertical ol li:hover {
+	border-bottom-color: #99BF00;
+	color: #99BF00;
+}
+
+/* k2.css */
+.catItemHeader .catItemTitle a:hover {
+	color: #967199;
+}
+
+.catItemHeader .catItemTitle span sup,.itemHeader .itemTitle span sup {
+	color: #99BF00;
+}
+
+.itemToolbar .itemAuthor a {
+	color: #967199;
+}
+
+.catItemTagsBlock ul.catItemTags li a:hover,.itemTagsBlock ul.itemTags li a:hover {
+	background: #967199;
+}
+
+table.calendar tr td.calendarDayName {
+	background: #967199;
+}
+
+table.calendar tr td.calendarToday {
+	background: #967199;
+	color: #fff;
+}
+
+table.calendar tr td.calendarTodayLinked a:hover {
+	background: #967199;
+}
+
+.k2CategoriesListBlock ul.level0 li {
+	background-image: url('../images/style3/bullet_color.png');
+}

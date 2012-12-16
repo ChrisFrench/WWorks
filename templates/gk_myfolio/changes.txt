@@ -1,0 +1,17 @@
+<p>Changed all $ to document.id in the template scripts</p>
+<p>Uprade of the overidded files to Joomla! 1.6.1</p>
+<p>Fixed problem with warnings from gk.framework.php file</p>
+<p>small improvements in the template options</p>
+
+Changed files:<br /><br />
+- templateDetails.xml<br />
+- admin/scripts.js<br />
+- html/com_content/article/default.php<br />
+- html/com_content/category/blog_item.php<br />
+- html/com_content/featured/default_item.php<br />
+- js/gk.scripts.js<br />
+- js/ie7.equal.columns.js<br />
+- js/menu.gkdropline.js<br />
+- js/menu.gkmenu.js<br />
+- lib/gk.const.php<br />
+- lib/gk.framework.php<br />
