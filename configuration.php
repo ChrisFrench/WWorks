@@ -12,10 +12,10 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = 'localhost';
-	public $user = 'root';
-	public $password = 'chris01';
-	public $db = 'wayansworks';
+	public $host = 'mysql51-028.wc2.dfw1.stabletransit.com';
+	public $user = '789326_wayans';
+	public $password = 'F0rgetting01';
+	public $db = '789326_wayans';
 	public $dbprefix = 'msivr_';
 	public $live_site = '';
 	public $secret = 'yqHltNlJqDCw06CW';
@@ -53,8 +53,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/Users/chris/Documents/Aptana Studio 3 Workspace/wayansworks2.local/logs';
-	public $tmp_path = '/Users/chris/Documents/Aptana Studio 3 Workspace/wayansworks2.local/tmp';
+	public $log_path = '/mnt/stor2-wc2-dfw1/441462/789326/www.wayansworks.com/web/content/logs';
+	public $tmp_path = '/mnt/stor2-wc2-dfw1/441462/789326/www.wayansworks.com/web/content/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 }
